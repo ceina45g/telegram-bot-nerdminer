@@ -1,0 +1,10 @@
+2026-08-09 14:32:22,048 - __main__ - INFO - 啟動 FastAPI 於 127.0.0.1:8000
+INFO:     Started server process [16584]
+INFO:     Waiting for application startup.
+2026-08-09 14:32:22,089 - __main__ - INFO - 正在初始化 Telegram Application...
+2026-08-09 14:32:22,868 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getMe "HTTP/1.1 200 OK"
+2026-08-09 14:32:22,870 - telegram.ext.Application - INFO - Application started
+2026-08-09 14:32:22,873 - __main__ - INFO - 正在設定 Webhook: https://6279-219-71-33-17.ngrok-free.app/webhook
+2026-08-09 14:32:23,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/setWebhook "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)

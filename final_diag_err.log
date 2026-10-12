@@ -1,0 +1,10 @@
+C:\Users\user\Documents\telegram bot\diagnostic_bot.py:49: DeprecationWarning: There is no current event loop
+  loop = asyncio.get_event_loop()
+2026-08-08 21:23:22,802 - __main__ - INFO - 機器人開始執行...
+2026-08-08 21:23:22,860 - __main__ - INFO - 嘗試發送啟動測試訊息給 1418292007...
+2026-08-08 21:23:23,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getMe "HTTP/1.1 200 OK"
+2026-08-08 21:23:23,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/sendMessage "HTTP/1.1 200 OK"
+2026-08-08 21:23:23,834 - __main__ - INFO - 啟動訊息發送成功。
+2026-08-08 21:23:23,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/deleteWebhook "HTTP/1.1 200 OK"
+2026-08-08 21:23:23,890 - telegram.ext.Application - INFO - Application started
+2026-08-08 21:23:34,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getUpdates "HTTP/1.1 200 OK"

@@ -1,0 +1,11 @@
+INFO:     Started server process [3272]
+INFO:     Waiting for application startup.
+2026-08-10 20:35:38,735 - __main__ - INFO - \U0001f680 超級整合機器人啟動中...
+2026-08-10 20:35:39,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getMe "HTTP/1.1 200 OK"
+2026-08-10 20:35:39,554 - apscheduler.scheduler - INFO - Scheduler started
+2026-08-10 20:35:39,556 - telegram.ext.Application - INFO - Application started
+2026-08-10 20:35:41,559 - apscheduler.scheduler - INFO - Added job "web_monitor_job" to job store "default"
+2026-08-10 20:35:41,561 - apscheduler.scheduler - INFO - Added job "mining_monitor_job" to job store "default"
+2026-08-10 20:35:41,562 - apscheduler.scheduler - INFO - Added job "verify_webhook_job" to job store "default"
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)

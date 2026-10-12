@@ -1,0 +1,15 @@
+﻿Robot started successfully! Press Ctrl+C to stop
+python : 2026-08-08 20:54:40,538 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getMe
+ "HTTP/1.1 200 OK"
+位於 線路:1 字元:1
++ python -u bot2.py 2>&1 | Out-File -FilePath bot2_debug.txt -Encoding  ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-08-08 20:5...TTP/1.1 200 OK":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-08-08 20:54:40,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/deleteWebhook 
+"HTTP/1.1 200 OK"
+2026-08-08 20:54:40,785 - telegram.ext.Application - INFO - Application started
+2026-08-08 20:54:41,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getUpdates "HT
+TP/1.1 200 OK"
+2026-08-08 20:54:41,533 - __main__ - INFO - Received message: /status

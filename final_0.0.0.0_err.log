@@ -1,0 +1,14 @@
+2026-08-09 14:40:18,263 - __main__ - INFO - 啟動 FastAPI 於 0.0.0.0:8001
+INFO:     Started server process [16048]
+INFO:     Waiting for application startup.
+2026-08-09 14:40:18,306 - __main__ - INFO - Lifespan 啟動: 正在初始化 PTB...
+2026-08-09 14:40:19,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getMe "HTTP/1.1 200 OK"
+2026-08-09 14:40:19,104 - __main__ - INFO - PTB 初始化完成，正在啟動...
+2026-08-09 14:40:19,107 - telegram.ext.Application - INFO - Application started
+2026-08-09 14:40:19,108 - __main__ - INFO - PTB 啟動完成，正在設定 Webhook: https://ef1f-219-71-33-17.ngrok-free.app/webhook
+2026-08-09 14:40:19,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/setWebhook "HTTP/1.1 200 OK"
+2026-08-09 14:40:19,367 - __main__ - INFO - Webhook 設定成功！
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+2026-08-09 14:40:26,775 - __main__ - INFO - 收到請求: GET /health
+2026-08-09 14:40:26,777 - __main__ - INFO - 回應狀態: 200

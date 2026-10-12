@@ -1,0 +1,33 @@
+INFO:     Started server process [24920]
+INFO:     Waiting for application startup.
+2026-09-05 20:56:22,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getMe "HTTP/1.1 200 OK"
+2026-09-05 20:56:22,985 - apscheduler.scheduler - INFO - Scheduler started
+2026-09-05 20:56:22,985 - telegram.ext.Application - INFO - Application started
+2026-09-05 20:56:24,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/setWebhook "HTTP/1.1 200 OK"
+2026-09-05 20:56:24,865 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/sendMessage "HTTP/1.1 200 OK"
+2026-09-05 20:56:24,871 - apscheduler.scheduler - INFO - Added job "web_monitor_job" to job store "default"
+2026-09-05 20:56:24,872 - apscheduler.scheduler - INFO - Added job "mining_monitor_job" to job store "default"
+2026-09-05 20:56:24,873 - apscheduler.scheduler - INFO - Added job "verify_webhook_job" to job store "default"
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8888 (Press CTRL+C to quit)
+2026-09-05 20:56:29,872 - apscheduler.executors.default - INFO - Running job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:57:29 UTC)" (scheduled at 2026-09-05 12:56:29.870846+00:00)
+2026-09-05 20:56:29,873 - apscheduler.executors.default - INFO - Running job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:57:29 UTC)" (scheduled at 2026-09-05 12:56:29.872419+00:00)
+2026-09-05 20:56:30,395 - apscheduler.executors.default - INFO - Job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:57:29 UTC)" executed successfully
+2026-09-05 20:56:31,068 - apscheduler.executors.default - INFO - Job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:57:29 UTC)" executed successfully
+2026-09-05 20:56:54,877 - apscheduler.executors.default - INFO - Running job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:57:54 UTC)" (scheduled at 2026-09-05 12:56:54.872877+00:00)
+2026-09-05 20:56:55,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getWebhookInfo "HTTP/1.1 200 OK"
+2026-09-05 20:56:55,632 - apscheduler.executors.default - INFO - Job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:57:54 UTC)" executed successfully
+2026-09-05 20:57:29,877 - apscheduler.executors.default - INFO - Running job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:58:29 UTC)" (scheduled at 2026-09-05 12:57:29.870846+00:00)
+2026-09-05 20:57:29,878 - apscheduler.executors.default - INFO - Running job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:58:29 UTC)" (scheduled at 2026-09-05 12:57:29.872419+00:00)
+2026-09-05 20:57:30,354 - apscheduler.executors.default - INFO - Job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:58:29 UTC)" executed successfully
+2026-09-05 20:57:31,081 - apscheduler.executors.default - INFO - Job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:58:29 UTC)" executed successfully
+2026-09-05 20:57:54,879 - apscheduler.executors.default - INFO - Running job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:58:54 UTC)" (scheduled at 2026-09-05 12:57:54.872877+00:00)
+2026-09-05 20:57:55,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getWebhookInfo "HTTP/1.1 200 OK"
+2026-09-05 20:57:55,636 - apscheduler.executors.default - INFO - Job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:58:54 UTC)" executed successfully
+2026-09-05 20:58:29,874 - apscheduler.executors.default - INFO - Running job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:59:29 UTC)" (scheduled at 2026-09-05 12:58:29.870846+00:00)
+2026-09-05 20:58:29,874 - apscheduler.executors.default - INFO - Running job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:59:29 UTC)" (scheduled at 2026-09-05 12:58:29.872419+00:00)
+2026-09-05 20:58:30,347 - apscheduler.executors.default - INFO - Job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:59:29 UTC)" executed successfully
+2026-09-05 20:58:30,929 - apscheduler.executors.default - INFO - Job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:59:29 UTC)" executed successfully
+2026-09-05 20:58:54,886 - apscheduler.executors.default - INFO - Running job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:59:54 UTC)" (scheduled at 2026-09-05 12:58:54.872877+00:00)
+2026-09-05 20:58:55,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getWebhookInfo "HTTP/1.1 200 OK"
+2026-09-05 20:58:55,640 - apscheduler.executors.default - INFO - Job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-09-05 12:59:54 UTC)" executed successfully

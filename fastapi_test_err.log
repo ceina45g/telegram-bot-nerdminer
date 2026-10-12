@@ -1,0 +1,5 @@
+INFO:     Started server process [13108]
+INFO:     Waiting for application startup.
+INFO:__main__:FastAPI 伺服器啟動中 (已略過 Webhook 設定)...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)

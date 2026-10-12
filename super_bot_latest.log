@@ -1,0 +1,25 @@
+INFO:     Started server process [15664]
+INFO:     Waiting for application startup.
+2026-08-10 20:42:30,958 - __main__ - INFO - \U0001f680 超級整合機器人啟動中...
+2026-08-10 20:42:31,769 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getMe "HTTP/1.1 200 OK"
+2026-08-10 20:42:31,770 - apscheduler.scheduler - INFO - Scheduler started
+2026-08-10 20:42:31,770 - telegram.ext.Application - INFO - Application started
+2026-08-10 20:42:31,772 - __main__ - INFO - \U0001f517 設定 Webhook: https://d583-219-71-33-17.ngrok-free.app/webhook
+2026-08-10 20:42:32,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/setWebhook "HTTP/1.1 200 OK"
+2026-08-10 20:42:32,777 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/sendMessage "HTTP/1.1 200 OK"
+2026-08-10 20:42:32,778 - apscheduler.scheduler - INFO - Added job "web_monitor_job" to job store "default"
+2026-08-10 20:42:32,779 - apscheduler.scheduler - INFO - Added job "mining_monitor_job" to job store "default"
+2026-08-10 20:42:32,779 - apscheduler.scheduler - INFO - Added job "verify_webhook_job" to job store "default"
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     149.154.161.214:0 - "GET / HTTP/1.1" 404 Not Found
+2026-08-10 20:42:37,778 - apscheduler.executors.default - INFO - Running job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-08-10 12:43:37 UTC)" (scheduled at 2026-08-10 12:42:37.777753+00:00)
+2026-08-10 20:42:37,779 - apscheduler.executors.default - INFO - Running job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-08-10 12:43:37 UTC)" (scheduled at 2026-08-10 12:42:37.779133+00:00)
+2026-08-10 20:42:37,780 - apscheduler.executors.default - INFO - Running job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-08-10 12:43:37 UTC)" (scheduled at 2026-08-10 12:42:37.779488+00:00)
+2026-08-10 20:42:37,780 - __main__ - INFO - 正在執行礦池監控任務: https://pool.nerdminers.org/users/13NvdBs5dFarwR4TK373BMM4sEheAXbewB
+2026-08-10 20:42:38,392 - apscheduler.executors.default - INFO - Job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-08-10 12:43:37 UTC)" executed successfully
+2026-08-10 20:42:38,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getWebhookInfo "HTTP/1.1 200 OK"
+2026-08-10 20:42:38,552 - apscheduler.executors.default - INFO - Job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-08-10 12:43:37 UTC)" executed successfully
+2026-08-10 20:42:38,770 - __main__ - INFO - 成功獲取礦池數據。
+2026-08-10 20:42:38,770 - apscheduler.executors.default - INFO - Job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-08-10 12:43:37 UTC)" executed successfully
+^C
